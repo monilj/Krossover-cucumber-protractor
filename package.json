@@ -1,0 +1,28 @@
+{
+  "name": "protractor-cucumber-demo",
+  "description": "Demo: to showcase Protractor integration with Cucumber",
+  "main": "./*.js",
+  "scripts": {
+    "test": "./searchSpec.js", "./loginSpec.js"
+  },
+  "keywords": [
+    "Protractor",
+    "Cucumber"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "protractor": "^5.1.2",
+    "protractor-cucumber-framework": "^0.5.0",
+    "cucumber": "^1.1.1"
+  },
+  "standard": {
+    "env": [
+      "jasmine",
+      "protractor"
+    ]
+  }
+}
