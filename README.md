@@ -43,6 +43,11 @@ The next step is writing `.feature` file.File which includes Test cases written 
 // Step Definitions
 Step definitions is where Gherkin's *documentation* turned into an actual *automated tests*. 
 
+//package.json 
+A package.json file contains meta data about project/module. It includes the list of dependencies to install from npm when running npm install
+
+
+## Steps to run project
 Create a folder at the same loction where protractor is installed and save all three files (config file,feature file and spec file) in that folder
 Protractor is installed in C:\Users\[User_name]\AppData\Roaming\npm\node_modules this location.
 Got to \protractor\folder_name
